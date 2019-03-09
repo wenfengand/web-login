@@ -3,7 +3,9 @@ import urllib.request
 import argparse
 import getpass
 
-url = 'your_url'
+import config 
+
+url = config.url
 username = None
 password = None
 user_agent = 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'
